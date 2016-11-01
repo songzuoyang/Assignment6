@@ -5,9 +5,15 @@ public class Pet {
 	public String color;
 	protected String Sex;
 	protected int sexid ;
+	public static final int MALE=9;
+	public static final int FEMALE=99;
+	public static final int SPAYED=999;
+	public static final int NEUTERED=9999;
 	
 	Pet (String name, String ownerName, String color) {
-		
+		this.name=name;
+		this.ownerName=ownerName;
+		this.color=color;
 	}
 
 	public String getName() {
